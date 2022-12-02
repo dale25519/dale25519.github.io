@@ -1,0 +1,14 @@
+{
+	
+	"name": "Node.js",
+	
+	"image": "docker.io/node:latest",
+	
+	"extensions": [
+		"dbaeumer.vscode-eslint",
+		"svelte.svelte-vscode"
+	],
+	
+	"postCreateCommand": "npm i -g pnpm && pnpm i"
+
+}
