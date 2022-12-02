@@ -2,11 +2,11 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: main
+    branches: master
   workflow_dispatch:
 
 jobs:
   deploy:
-    uses: dale25519/dale25519.github.io/.github/workflows/pnpm-gh-pages.yml@main
+    uses: dale25519/dale25519.github.io/.github/workflows/pnpm-gh-pages.yml@master
     with:
       publish_dir: build
